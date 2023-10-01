@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Catamarca</title>
+    <link rel="shortcut icon" href="./Assets/Imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">
+                <img src="./Assets/Imagenes/codoacodo.png" alt="Logo" height="40" class="d-inline-block align-text-top">
+                Conf Catamarca
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-light" href="#conferencia">La conferencia</a>
+                    <a class="nav-link active text-secondary" href="#oradores">Los oradores</a>
+                    <a class="nav-link active text-secondary" href="#lugaryfecha">El lugar y la fecha</a>
+                    <a class="nav-link active text-secondary" href="#serorador">Conviértete en orador</a>
+                    <a class="nav-link active text-success" href="#comprar">Comprar tickets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <img src="./Assets/Imagenes/cata.jpg" class="img-fluid" alt="edificio">
+        <div class="text-light position-absolute top-50 end-10 w-50 text-end" id="conferencia">
+            <h1>Conf Catamarca</h1>
+            <p>
+                Conf Catamarca llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
+                y
+                experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
+                esperamos!
+            </p>
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+            <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+    </header>
+    <main>
+        <section class="oradores">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col align-self-center">
+                        <h2 class="display-6 fs-6">CONOCÉ A LOS<br><span class="fs-1">ORADORES</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Assets/Imagenes/steve.jpg" class="card-img-top img-fluid"  alt="stevejobs">
+                        <div class="card-body">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-primary">React</span>
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Co-fundador de Apple, fue un visionario de la tecnología. Su creatividad y pasión revolucionaron la industria. Su legado perdura en productos icónicos como el iPhone y Mac. Su enfoque en la simplicidad y la innovación sigue inspirando a generaciones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Assets/Imagenes/bill.jpg" class="card-img-top img-fluid" alt="billgates">
+                        <div class="card-body">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-primary">React</span>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Cofundador de Microsoft, es un líder visionario en el mundo de la tecnología. Su impulso por la innovación y la filantropía lo ha convertido en una figura influyente a nivel global. Su legado se refleja en la forma en que la informática ha transformado el mundo moderno.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Assets/Imagenes/elon.jpg" class="card-img-top img-fluid" alt="avalovelace">
+                        <div class="card-body">
+                            <span class="badge text-bg-secondary">Negocios</span>
+                            <span class="badge text-bg-danger">Startups</span>
+                            <h5 class="card-title">Elon Musk</h5>
+                            <p class="card-text">
+                                Fundador de SpaceX y Tesla, sus innovaciones en cohetes reutilizables y vehículos eléctricos han marcado hitos en la exploración espacial y sostenibilidad. Su audacia y visión futurista lo convierten en una figura influyente en el mundo de la tecnología y más allá.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lugaryfecha">
+            <div class="row">
+                <div class="col-6 p-0">
+                    <img src="./Assets/Imagenes/CatedralCata.jpg" class="card-img-top" alt="honolulu">
+                </div>
+                <div class="col-6 bg-dark text-light p-4">
+                    <h2>Catamarca - Octubre 23</h2>
+                    <p>
+                        Catamarca es una provincia ubicada en el noroeste de Argentina. Su capital lleva el nombre de San Fernando del Valle de Catamarca, y es la ciudad más poblada de la provincia. Se sitúa en el centro-oeste de la región. La superficie total de la ciudad es de aproximadamente 684 km². Catamarca es conocida por su impresionante paisaje montañoso y su rica cultura.
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/San_Fernando_del_Valle_de_Catamarca" target="_blank" class="btn btn-outline-light">Conocé más</a>
+                </div>
+            </div>
+
+
+        </section>
+    <section id="expositor" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <small class="text-uppercase">Conviértete en un</small>
+              <h2>ORADOR</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              Anótate como orador para dar una charla <abbr data-toggle="tooltip" data-placement="top" title="Charlas de 5 minutos">ignite</abbr> en la conferencia. <br> Cuéntanos de qué quieres hablar!
+            </div>
+          </div>
+          <div class="col-lg-8 offset-lg-2 col-md-11 offset-md-1">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6 col-12">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-6 col-12">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-12">
+                  <textarea name="text" placeholder="¿Sobre qué quieres hablar?" class="form-control form-control-lg"></textarea>
+                  <smal class="form-text text-muted">Recuerda incluir un título para tu charla.</smal>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                    <button type="button" class="btn btn-verde btn-block boton" name="button">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+    </footer>
+    <section id="footer" class="footer-bg pt-4">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-12 col-lg">
+              <a href="#">Preguntas frecuentes</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Contáctanos</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Prensa</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Conferencias</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Términos y condiciones</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Privacidad</a>
+            </div>
+            <div class="col-sm-12 col-lg">
+              <a href="#">Estudiantes</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="credito">
+        Creado por unfulanodev.com.ar - <a href="https://unfulanodev.com.ar/" target="_blank"><img src="./Assets/Imagenes/icono-blanco.svg" alt="Icono del Programador"></a>
+    </section>
+</body>
+
+</html>
